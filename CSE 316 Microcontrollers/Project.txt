@@ -1,0 +1,14 @@
+Demonstration Link: https://youtube.com/shorts/38iIqcjMeMc?si=UNnCqDM0KsOn4VZ3
+
+Key parts of the project:
+1) LDR sensor + servo motor: Prevents pet cat from exiting the house. It detects light coming from a laser beam. If light is blocked (by a passing pet cat) then the LDR sensor will trigger a servo motor to close the doors/windows. The windows can be opened again using a Bluetooth module (HC-05)
+
+2) Pet cat food dispatcher: Food is kept in a container. The opening is blocked by a small piece of cardboard connected with another servo motor. Using the Bluetooth module, the piece of cardboard + servo motor can be rotated to expose the opening (and thus drop food from the container) or close the opening (to block food from dropping)
+
+3) Soil moisture sensor: If soil is dry, then pump water to the soil using a water pump. Once soil becomes wet, soil moisture sensor detects that, and pumping water is stopped. In this way, plants can be watered.
+
+4) Water level sensor: Detects water level of a container to feed water to pet cat. If the water goes below a certain level, the sensor detects that and pumps water into the sensor. Thus, providing water to a pet cat is automated.
+
+Two ATMega32 microcontrollers were used in this project. 
+
+*This project's demonstration video is also available in the messenger group named Microcontrollers Project Group.

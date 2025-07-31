@@ -1,0 +1,7 @@
+./run-script.sh  --> to run the code
+
+in the run-script.sh, there is a line:
+java -cp .:/usr/local/lib/antlr-4.13.2-complete.jar Main input/test1_i.c
+here, modify input/test1_i.c to any input file of choice
+
+./clean-script.sh  --> cleaning up the mess
